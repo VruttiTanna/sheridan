@@ -47,7 +47,7 @@ def answer_question_with_openai(question, context):
 # Set OpenAI API key from environment variables or Streamlit secrets
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", st.secrets.get("OPENAI_API_KEY"))
 
-client = openai.Client(api_key=OPENAI_API_KEY)
+openai.api_key = OPENAI_API_KEY
 
 # Ensure the OpenAI API key is set
 if not OPENAI_API_KEY:
