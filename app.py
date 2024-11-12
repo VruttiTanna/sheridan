@@ -45,7 +45,7 @@ def answer_question_with_openai(question, context):
 
 # Set OpenAI API key
 # Set OpenAI API key
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Load Sheridan logo
 logo = Image.open("sheridan_logo_2.png")
