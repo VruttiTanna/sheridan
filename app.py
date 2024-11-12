@@ -44,6 +44,7 @@ def answer_question_with_openai(question, context):
     return response['choices'][0]['message']['content']
 
 # Set OpenAI API key
+# Set OpenAI API key
 openai.api_key = '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'
 
 # Load Sheridan logo
