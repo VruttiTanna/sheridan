@@ -45,8 +45,10 @@ def answer_question_with_openai(question, context):
     return response['choices'][0]['message']['content']
 
 # Set OpenAI API key from environment variables or Streamlit secrets
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", st.secrets.get("OPENAI_API_KEY"))
+# Retrieve the API key from secrets
+OPENAI_API_KEY = st.secrets["openai"]["OPENAI_API_KEY"]
 
+# Set OpenAI API key
 openai.api_key = OPENAI_API_KEY
 
 # Ensure the OpenAI API key is set
