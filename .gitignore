@@ -1,0 +1,19 @@
+# Ignore the .env file containing sensitive keys
+.env
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Streamlit-related files
+.streamlit/
+
+# Ignore IDE-related files
+.vscode/
+.idea/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore any other sensitive or unnecessary files
