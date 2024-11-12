@@ -2,3 +2,4 @@ streamlit
 PyPDF2
 openai == 0.27.0
 pillow
+os
