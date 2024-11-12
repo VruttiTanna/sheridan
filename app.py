@@ -55,6 +55,7 @@ def answer_question_with_openai(question, context):
 #openai_client = openai.Client(api_key=os.environ.get("OPENAI_API_KEY"))
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", st.secrets["OPENAI_API_KEY"])
 
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 
 # Load Sheridan logo
