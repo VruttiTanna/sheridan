@@ -197,6 +197,6 @@ with col3:
 # Footer
 st.markdown("""
     <div class="footer">
-        <p>© 2024 Sheridan College - PDF Q&A Application | Created by the AI Lab</p>
+        <p>© 2024 Sheridan College - PDF Q&A Application | Created by the AI Group</p>
     </div>
 """, unsafe_allow_html=True)
