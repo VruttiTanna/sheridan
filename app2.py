@@ -168,8 +168,6 @@ st.sidebar.write("""
 st.sidebar.markdown("""
     ### Contributors
     - Vrutti Tanna
-    - Serageldin Abdelmoaty
-    - Mohammad Amir
 """)
 
 # Information Box
