@@ -190,8 +190,6 @@ with col3:
     st.markdown("""
     ### Contributors
     - Vrutti Tanna
-    - Serageldin Abdelmoaty
-    - Mohammad Amir
     """)
 
 # Footer
